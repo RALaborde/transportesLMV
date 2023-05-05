@@ -9,12 +9,12 @@ body {
     /*interlineado- separacion entre linea y linea*/
 }
 
-header{
+header {
     background-color: #2e64a1;
     padding: 16px 0;
 }
 
-header h1{
+header h1 {
     color: white;
     font-size: 40px;
     font-style: italic;
@@ -25,23 +25,23 @@ header h1{
     margin-left: 10px;
 }
 
-nav{
+nav {
     background-color: #6da9ed;
     margin-bottom: 30px;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     flex-grow: 1;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
     padding: 30px 0;
@@ -49,15 +49,15 @@ nav ul li a{
     justify-content: center;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-nav ul li a.activo{
+nav ul li a.activo {
     background-color: #4c76a5;
 }
 
-footer{
+footer {
     background-color: #ccc;
     padding: 48px 0;
     text-align: center;
@@ -65,13 +65,13 @@ footer{
     margin-top: 30px;
 }
 
-.holder{
+.holder {
     width: 960px;
     margin: 0 auto;
 
 }
 
-h2{
+h2 {
     color: #2e64a1;
     font-weight: 400;
 }
@@ -80,36 +80,87 @@ h2{
     display: flex;
 }
 
-.bienvenidos{
+.bienvenidos {
     width: 75%;
     padding-right: 30px;
 }
 
-.testimonios{
+.testimonios {
     width: 25%;
 }
 
-.bienvenidos p{
+.bienvenidos p {
     font-size: 24px;
 }
 
-.testimonio{
+.testimonio {
     background-color: #ddd;
     padding: 16px;
 }
 
-.testimonio .cita{
+.testimonio .cita {
     font-weight: bold;
     font-style: italic;
     font-size: 20px;
     background-color: yellow;
     display: block;
-    }
+}
 
-    .testimonio .autor{
-        font-size: 12px;
-        background-color: orange;
-        text-align: center;
-        display: block;
-        margin: 16px 0;
-    }
+.testimonio .autor {
+    font-size: 12px;
+    background-color: orange;
+    text-align: center;
+    display: block;
+    margin: 16px 0;
+}
+
+/*estilos para seccion nosotros*/
+
+.historia p {
+    font-size: 12px;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.persona {
+    width: 18%;
+    /*background-color: yellow; */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+
+.persona img{
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin-bottom: 16px;
+}
+
+.persona h5,
+.persona h6 {
+    margin: 0;
+    color: #2e64a1;
+    font-weight: normal;
+}
+
+.persona h5{
+    font-size: 16px;
+}
+
+.persona h6{
+    font-style: italic;
+    font-size: 13px;
+}
+
+.persona p{
+    font-size: 12px;
+    color: #565656;
+    text-align: left;
+}
+/*fin de nosotros*/
